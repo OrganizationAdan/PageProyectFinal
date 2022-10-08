@@ -1,0 +1,23 @@
+*{
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.buscar{
+    position: absolute;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 240px;
+    height: 20px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: blue;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+
