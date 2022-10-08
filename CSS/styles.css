@@ -7,22 +7,53 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+header .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+header .espacio{
+    margin-top: 6px;
+}
+
+header .nav-derecha{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: blueviolet;
 }
+
+header .bsc-space{
+    margin-right: 30px;
+    margin-top: 3px;
+
+}
+header .nav-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .buscar{
-    position: relative;
+    display: flex;
     padding: 5px;
 }
 
 .buscar input{
-    width: 140px;
+    width: 100px;
     height: 20px;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 10px;
     color:black;
     outline: none;
     border: 1px solid silver;
@@ -31,25 +62,18 @@ body{
 
 }
 
-.btn{
-    position: relative;
-    top: 0;
-    right: 0%;
-    background-color: blueviolet;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
 .buscar:hover{
     width:140px;
 }
 
 .buscar input:hover{
     width: 140px;
+}
+
+.icon {
+    width: 25px;
+    height: 25spx;
+    margin: 2px;
+    align-items: center;
+    text-align: center;
 }
