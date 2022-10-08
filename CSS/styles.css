@@ -20,7 +20,7 @@ header .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 header .espacio{
@@ -33,7 +33,7 @@ header .nav-derecha{
 }
 
 header .bsc-space{
-    margin-right: 30px;
+    margin-right: 0px;
     margin-top: 3px;
 
 }
@@ -42,6 +42,10 @@ header .nav-2{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+header .nav-2 a {
+    margin-right: 10px;
 }
 
 .buscar{
@@ -64,6 +68,7 @@ header .nav-2{
 
 .buscar:hover{
     width:140px;
+    margin-right: 40px;
 }
 
 .buscar input:hover{
@@ -76,4 +81,32 @@ header .nav-2{
     margin: 2px;
     align-items: center;
     text-align: center;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03032F;
+    color:white;
+}
+
+.home{
+    margin-left: 10px;
+}
+
+.enlaces a{
+    margin: 13px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    font-size: 12px;
+    text-decoration: none;
 }
