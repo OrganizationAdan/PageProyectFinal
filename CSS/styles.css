@@ -5,19 +5,51 @@
 
 }
 
+body{
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
 .buscar{
-    position: absolute;
+    position: relative;
     padding: 5px;
 }
 
 .buscar input{
-    width: 240px;
+    width: 140px;
     height: 20px;
     padding: 0 20px;
     font-size: 18px;
-    color: black;
-    outline: blue;
+    color:black;
+    outline: none;
     border: 1px solid silver;
     border-radius: 30px;
+    transition: all 0.6s ease;
+
 }
 
+.btn{
+    position: relative;
+    top: 0;
+    right: 0%;
+    background-color: blueviolet;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover{
+    width:140px;
+}
+
+.buscar input:hover{
+    width: 140px;
+}
