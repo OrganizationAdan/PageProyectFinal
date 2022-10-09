@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(back.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;  
+}
+
+.banner{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: row;
+}
+
+.banner div{
+    display: flex;
+}
+
+.banner-info{
+    padding-right: 10%;
+}
+
+.s2{
+    padding-left: 10%;
+}
+
+.reg{
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 1px 9px 30px -6px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 9px 30px -6px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 9px 30px -6px rgba(0,0,0,0.29);
+    
+    padding: 10px;
+    min-width: 420px;
+    max-width: 420px;
+}
+
+.registrarse input{
+    border: none;
+    background-color: #ffffff;
+    outline: none;
+    width: 100%;
+    height: 22px;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.registrarse button{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: none;
+    width: 395px;
+    height: 48px;
+    background-color: #1877f2;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.registrarse button:hover{
+    background-color: #1566cf;
+}
+
+.reg a{
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.Barra{
+    width: 90%;
+    border-bottom: 1px solid #dddfe2;
+    margin-bottom: 10px;
+}
+
+.regis{
+    width: 250px;
+    height: 58px;
+    border: none;
+    background-color: #42b72a;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+.regis:hover{
+    background-color: #389c23;
+}
+
+.s2 p{
+    margin-left: 8%;
+    padding: 20px 2px;
+    font-weight: 500;
+    color: #e9e9e9;
+}
+
+.s2 p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.minfo a:hover{
+    text-decoration: underline;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+
+.inp label {
+    text-align: left;
+    margin: 0 5%;
+    padding: 0;
+    color: black;
+}
+
+.check{
+    padding: 10px;
+}
+
+.check label{
+    padding-top: 1%;
+}
+
+.check input{
+    width: 10%;
+    margin: 0;
+}
+
+input:focus{
+    border-color: #1877f2;
+}
+
+@media(max-width: 1000px){
+
+    body{
+        background-size: auto;
+    }
+
+    .banner{
+        padding: 0;
+        width: 100%;
+    }
+
+    .s2{
+        padding: 0;
+        width: 100%;
+    }
+
+    .registrarse{
+        width: 100%;
+    }
+
+    .registrarse button{
+        width: 100%;
+    }
+
+    .reg{
+        margin: 0 2%;
+        margin-top: 5%;
+        min-width: 10%;
+    }
+    
+}
