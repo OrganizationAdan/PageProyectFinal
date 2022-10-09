@@ -72,7 +72,7 @@ img{
     border: none;
     width: 395px;
     height: 48px;
-    background-color: #1877f2;
+    background-color: #03032F;
     color: #ffffff;
     font-size: 20px;
     border-radius: 6px;
@@ -80,7 +80,7 @@ img{
 }
 
 .registrarse button:hover{
-    background-color: #1566cf;
+    background-color: #25255a;
 }
 
 .reg a{
