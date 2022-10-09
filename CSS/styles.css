@@ -118,15 +118,16 @@ header .nav-2 a {
     margin: 80%;
     height: 50%;
     text-align: center;
+    border-radius: 6px;
 }
 
 .acercade{
     position: relative;
-    width:50%;
+    width:60%;
     height: 100%;
-    color: rgb(13, 13, 13);
+    color: white;
     text-align:justify;
-    padding: 1.5rem 1.5rem;
+    padding: 2rem 2rem;
     border-radius: 6px;
     box-shadow: 0 0px 25px #222 ;
     border: 1px solid #ffffff40;
@@ -145,9 +146,35 @@ header .nav-2 a {
 .sub-imagenscroll{
     position: absolute;
     height: 30px;
-    width: 40px;
+    width: 35px;
     top: 60%;
-    left: 80%;
+    left: 78%;
+    border-radius: 50%;
+}
+
+#container h1{
+    text-align: center;
+}
+
+#life{
+    padding-top: 33%;
+}
+
+#life .container2{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 70%;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#life span{
+    color: green;
+}
+
+#life p{
+    text-align: center;
+    font-size: 13px;
 }
 
 .container {
