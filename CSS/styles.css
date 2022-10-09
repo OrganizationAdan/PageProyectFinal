@@ -124,7 +124,7 @@ header .nav-2 a {
     position: relative;
     width:50%;
     height: 100%;
-    color: rgb(13, 13, 13);
+    color: white;
     text-align:justify;
     padding: 1.5rem 1.5rem;
     border-radius: 6px;
@@ -147,7 +147,7 @@ header .nav-2 a {
     height: 30px;
     width: 40px;
     top: 60%;
-    left: 80%;
+    left: 78%;
 }
 
 .container {
