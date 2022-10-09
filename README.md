@@ -9,4 +9,3 @@ Desarrollamos La pagina de proyecto final
 6. Ashley Mc kenzie
 7. Claudio Wilkey
 
-que xopa
