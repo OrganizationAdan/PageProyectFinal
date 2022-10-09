@@ -194,6 +194,26 @@ header .nav-2 a {
     }
 }
 
+@media (max-width: 280px ) {
+    .sub-imagenscroll{
+        display: none;
+    }
+    .imagen-principal{
+    height: 70%;
+    }
+    .acercade{
+        width: 80%;
+        height: 100%;
+        left:25px;
+    }
+    .items{
+        font-size: 8px;
+    }
+    #life{
+        padding-top: 45%;
+    }
+}
+
 
 @media (min-width: 360px) {
     #life{
