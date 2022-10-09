@@ -1,0 +1,169 @@
+*{
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+header .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+header .espacio{
+    margin-top: 6px;
+}
+
+header .nav-derecha{
+    display: flex;
+    align-items: center;
+}
+
+header .bsc-space{
+    margin-right: 0px;
+    margin-top: 3px;
+
+}
+header .nav-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav-2 a {
+    margin-right: 10px;
+}
+
+.buscar{
+    display: flex;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 100px;
+    height: 20px;
+    padding: 0 20px;
+    font-size: 10px;
+    color:black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+
+}
+
+.buscar:hover{
+    width:140px;
+    margin-right: 40px;
+}
+
+.buscar input:hover{
+    width: 140px;
+}
+
+.icon {
+    width: 25px;
+    height: 25spx;
+    margin: 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03032F;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.home{
+    margin-left: 10px;
+}
+
+.enlaces a{
+    margin: 13px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.imagen-principal{
+    position: absolute;
+    background-image: url(../IMG/IMAGEN-PRINCIPAL.jpg);
+    margin: 80%;
+    height: 50%;
+    text-align: center;
+}
+
+.acercade{
+    position: relative;
+    width:50%;
+    height: 100%;
+    color: rgb(13, 13, 13);
+    text-align:justify;
+    padding: 1.5rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 0px 25px #222 ;
+    border: 1px solid #ffffff40;
+    backdrop-filter: blur(25px);
+    font-size: 10px;
+    left: 30px;
+    top: 30px;
+}
+
+
+.filter{
+    -webkit-backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+}
+
+.sub-imagenscroll{
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    top: 60%;
+    left: 80%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 80%;
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 70%;
+    }
+}
