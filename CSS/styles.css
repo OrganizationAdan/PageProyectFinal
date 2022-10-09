@@ -90,6 +90,7 @@ header .nav-2 a {
     align-items: center;
     background-color: #03032F;
     color:white;
+    margin-bottom: 20px;
 }
 
 .home{
@@ -109,4 +110,60 @@ header .nav-2 a {
     margin-right: 10px;
     font-size: 12px;
     text-decoration: none;
+}
+
+.imagen-principal{
+    position: absolute;
+    background-image: url(../IMG/IMAGEN-PRINCIPAL.jpg);
+    margin: 80%;
+    height: 50%;
+    text-align: center;
+}
+
+.acercade{
+    position: relative;
+    width:50%;
+    height: 100%;
+    color: rgb(13, 13, 13);
+    text-align:justify;
+    padding: 1.5rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 0px 25px #222 ;
+    border: 1px solid #ffffff40;
+    backdrop-filter: blur(25px);
+    font-size: 10px;
+    left: 30px;
+    top: 30px;
+}
+
+
+.filter{
+    -webkit-backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+}
+
+.sub-imagenscroll{
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    top: 60%;
+    left: 80%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 80%;
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 70%;
+    }
 }
