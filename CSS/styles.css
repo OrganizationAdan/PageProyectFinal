@@ -130,7 +130,7 @@ header .nav-2 a {
     border-radius: 6px;
     box-shadow: 0 0px 25px #222 ;
     border: 1px solid #ffffff40;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(5px);
     font-size: 10px;
     left: 30px;
     top: 30px;
@@ -176,6 +176,26 @@ header .nav-2 a {
     font-size: 13px;
 }
 
+.perros-img{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perros-img h1{
+    color: #03032F;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'cursive';
+}
+
+.img-perros{
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1280px;
@@ -199,7 +219,7 @@ header .nav-2 a {
         display: none;
     }
     .imagen-principal{
-    height: 70%;
+    height: 65%;
     }
     .acercade{
         width: 80%;
@@ -214,24 +234,76 @@ header .nav-2 a {
     }
 }
 
-
-@media (min-width: 360px) {
+@media (min-width: 359px) {
     #life{
-        padding-top: 50%;
+        padding-top: 30%;
     }
     .acercade{
         width: 75%;
         height: 100%;
     }
+    .sub-imagenscroll{
+        position: relative;
+        top: 8vh;
+        left: 81%;
+    }
+}
+
+@media (min-width: 370px) {
+    #life{
+        padding-top: 30%;
+    }
+    .acercade{
+        width: 75%;
+        height: 100%;
+    }
+    .sub-imagenscroll{
+        position: relative;
+        top: 40px;
+        left: 260px;
+    }
+}
+@media (min-width: 389px) {
+    #life{
+        padding-top: 30%;
+    }
+    .acercade{
+        width: 75%;
+        height: 100%;
+        left: 13%;
+        padding-bottom: 40px;
+    }
+    .sub-imagenscroll{
+        position: relative;
+        top: 5.5vh;
+        left: 85%;
+    }
+    .acercade h1{
+        margin: 10px;
+    }
+    .acercade p{
+        padding-bottom: 39px;
+    }
 }
 
 @media (min-width: 410px) {
         #life{
-            padding-top: 40%;
+            padding-top: 30%;
         }
         .acercade{
             width: 55%;
             height: 100%;
+        }
+        .sub-imagenscroll{
+            position: relative;
+            top: 4vh;
+            left: 85%;
+        }
+        .acercade h1{
+            margin: 0px 0 10px 0;
+        }
+        .acercade p{
+            padding-bottom: 10px;
         }
 }
 
