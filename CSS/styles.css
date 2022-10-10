@@ -6,6 +6,7 @@
 }
 
 body{
+    margin: 0;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -33,10 +34,10 @@ header .nav-derecha{
 }
 
 header .bsc-space{
-    margin-right: 0px;
+    margin-right: 100px;
     margin-top: 3px;
-
 }
+
 header .nav-2{
     display: flex;
     flex-direction: row;
@@ -67,7 +68,6 @@ header .nav-2 a {
 
 .buscar:hover{
     width:140px;
-    margin-right: 40px;
 }
 
 .buscar input:hover{
@@ -76,7 +76,7 @@ header .nav-2 a {
 
 .icon {
     width: 25px;
-    height: 25spx;
+    height: 25px;
     margin: 2px;
     align-items: center;
     text-align: center;
@@ -130,7 +130,7 @@ header .nav-2 a {
     border-radius: 6px;
     box-shadow: 0 0px 25px #222 ;
     border: 1px solid #ffffff40;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(5px);
     font-size: 10px;
     left: 30px;
     top: 30px;
@@ -176,6 +176,26 @@ header .nav-2 a {
     font-size: 13px;
 }
 
+.perros-img{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perros-img h1{
+    color: #03032F;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'cursive';
+}
+
+.img-perros{
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1280px;
@@ -194,162 +214,29 @@ header .nav-2 a {
     }
 }
 
-@media (max-width: 280px ) {
-    .sub-imagenscroll{
-        display: none;
-    }
-    .imagen-principal{
-    height: 70%;
-    }
-    .acercade{
-        width: 80%;
-        height: 100%;
-        left:25px;
-    }
-    .items{
-        font-size: 8px;
-    }
-    #life{
-        padding-top: 45%;
-    }
+
+footer{
+    background-color: #03032F;
+    color: white;
+    font-size: 7px;
+}
+.img-footer{
+    display: flex;
+    width: 100px;
+    height: 100px;
 }
 
-
-@media (min-width: 360px) {
-    #life{
-        padding-top: 50%;
-    }
-    .acercade{
-        width: 75%;
-        height: 100%;
-    }
+.principal-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-@media (min-width: 410px) {
-        #life{
-            padding-top: 40%;
-        }
-        .acercade{
-            width: 55%;
-            height: 100%;
-        }
-}
-
-/* despues de los 420px hacer media querie para cel mas grandes */
-@media (min-width: 515px) {
-    .home, .items{
-        font-size: 15px;
-    }
-    .items{
-        margin-right: 30px;
-    }
-    .acercade{
-        width: 45%;
-        height: 100%;
-    }
-
-    #life{
-        padding-top: 20%;
-        text-align: center;
-    }
-
-    .buscar{
-        width: 140px;
-        height: 24px;
-        transition: all 0.6s ease; 
-    }
-    .buscar:hover{
-        width:180px;
-
-    }
-    
-    .buscar input:hover{
-        width: 180px;
-    }
-    
-}
-
-@media (min-width: 800px) {
-    #life{
-        padding-top: 55%;
-    }
-    .acercade{
-        width: 25%;
-        height: 100%;
-        top:110px;
-        left: 40px;
-    }
-
-    .container2 p{
-        font-size: 80px;
-    }
-    .sub-imagenscroll{
-        position: relative;
-        top: 180px;
-        left: 630px;
-        width: 8%;
-        height: 8%;
-    }
-}
-
-@media (min-width: 900px) {
-    .home, .items{
-        font-size: 15px;
-    }
-
-    .items a{
-        margin-right: 30px;
-    }
-    .acercade{
-        position: absolute;
-        width: 20%;
-        height: 30%;
-        top: 200px;
-        left: 120px;
-    }
-
-    .sub-imagenscroll{
-        position: relative;
-        top: 600px;
-        left: 680px;
-        width: 10%;
-        height: 10%;
-    }
-
-    #life{
-        padding-top: 75%;
-        text-align: center;
-    }
-
-    .buscar{
-        width: 180px;
-        height: 24px;
-        transition: all 0.6s ease; 
-        margin: 0;
-        padding: 0;
-    }
-    .buscar:hover{
-        width:220px;
-    }
-    
-    .buscar input:hover{
-        width: 220px;
-    }
-}
-
-@media (min-width: 1000px) {
-    .acercade{
-        position: absolute;
-        width: 20%;
-        height: 30%;
-        top: 200px;
-        left: 180px;
-    }
-    .sub-imagenscroll{
-        position: relative;
-        top: 470px;
-        left: 630px;
-        width: 10%;
-        height: 10%;
-    }
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
