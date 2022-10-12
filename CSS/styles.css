@@ -21,7 +21,6 @@ header .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 10px;
 }
 
 header .espacio{
@@ -45,7 +44,13 @@ header .nav-2{
 }
 
 header .nav-2 a {
-    margin-right: 10px;
+    margin-right: 5px;
+}
+header .column{
+    margin: 20px;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .buscar{
@@ -67,11 +72,11 @@ header .nav-2 a {
 }
 
 .buscar:hover{
-    width:140px;
+    width:100px;
 }
 
 .buscar input:hover{
-    width: 140px;
+    width: 120px;
 }
 
 .icon {
@@ -82,6 +87,13 @@ header .nav-2 a {
     text-align: center;
 }
 
+.logo-direccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .enlaces{
     display: flex;
     flex-direction: row;
@@ -89,7 +101,10 @@ header .nav-2 a {
     align-items: center;
     background-color: #03032F;
     color:white;
-    margin-bottom: 20px;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+    width: 100%;
 }
 
 .home{
@@ -100,40 +115,40 @@ header .nav-2 a {
     margin: 13px;
     text-decoration: none;
     color: white;
-    margin-right: 10px;
+    
 }
 
 .items{
     display: flex;
     flex-direction: row;
-    margin-right: 10px;
     font-size: 12px;
     text-decoration: none;
 }
 
-.imagen-principal{
-    position: absolute;
+.espacio-imgP{
     background-image: url(../IMG/IMAGEN-PRINCIPAL.jpg);
-    margin: 80%;
-    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
     text-align: center;
     border-radius: 6px;
+    position: relative;
 }
 
 .acercade{
-    position: relative;
     width:60%;
-    height: 100%;
+    
     color: white;
     text-align:justify;
     padding: 2rem 2rem;
     border-radius: 6px;
-    box-shadow: 0 0px 25px #222 ;
+    box-shadow: 0 0px px #222 ;
     border: 1px solid #ffffff40;
     backdrop-filter: blur(5px);
     font-size: 10px;
     left: 30px;
     top: 30px;
+    position: absolute;
 }
 
 
@@ -155,7 +170,7 @@ header .nav-2 a {
 }
 
 #life{
-    padding-top: 28%;
+    padding-top: 10%;
     text-align: center;
 }
 

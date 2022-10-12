@@ -2,85 +2,110 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 360px ) {
+@media (max-width: 410px ) {
     .sub-imagenscroll{
         display: none;
     }
     
 }
 
+@media (max-width: 600px ) {
+    .logo{
+        display: none;
+    }
+    
+}
+
 @media (min-width: 280px ) {
+    .nav-2 a{
+        font-size: 9px;
+    }}
     .imagen-principal{
-    height: 54%;
+        background-repeat: no-repeat;
+    background-size: cover;
+        height: 420px;
     }
     .acercade{
-        width: 90%;
-        height: 100%;
-        left:12px;
+        width: 80%;
+        height: 85%;
     }
-    .items{
-        font-size: 8px;
+
+    .acercade button{
+        margin: 20px;
     }
-    #life{
-        padding-top: 35%;
+
+    .home{
+        font-size: 15px;
+    }
+    .enlaces a{
+        margin: 2px;
+        font-size: 10px;
+    }
+
+    .items a{
+        margin-right: 9px ;
     }
 
     .buscar{
-        width: 55px;
-        height: 24px;
+        width: 25px;
         transition: all 0.6s ease; 
     }
     .buscar:hover{
-        width:120px;
+        width:70px;
     }
     
     .buscar input:hover{
-        width: 120px;
-        
+        width: 140px;
     }
-}
+
+    .icon{
+        width: 15px;
+        height: 15px;
+    }
 
 @media (min-width: 359px) {
-    #life{
-        padding-top: 32%;
+    header .bsc-space{
+        margin-right: 100px;
+        margin-top: 3px;
+    }
+
+    .buscar{
+        width: 40px;
+        height: 24px;
+        transition: all 0.8s ease; 
+    }
+
+    .imagen-principal{
+        width: 100%;
+        height: 370px;
+        background-size: cover;
     }
     .acercade{
-        width: 75%;
-        height: 100%;
-        left: 35px;
-    }
-    .imagen-principal{
-        height: 48%;
-    }
-    header .bsc-space{
-        margin-right: 90px;
-        margin-top: 3px;
+        width: 70%;
+        height: 80%;
+        left: 15%;
+        align-items: center;
     }
 }
 
 @media (min-width: 389px) {
-    #life{
-        padding-top: 30%;
-    }
     .acercade{
         width: 75%;
-        height: 100%;
-        left: 13%;
-        padding-bottom: 40px;
+        height: 80%;
+        padding: 2rem 2.5rem;
+        align-items: center;
+    }
+    .acercade button{
+        margin: 25px;
+        padding: 4px;
     }
     .imagen-principal{
-        height: 50%;
-    }
-    .sub-imagenscroll{
-        position: relative;
-        top: 5.5vh;
-        left: 85%;
+        width: 100%;
+        height: 440px;
+        background-size: cover;
     }
     .acercade h1{
         margin: 10px;
-    }
-    .acercade p{
-        padding-bottom: 39px;
     }
 }
 
@@ -97,10 +122,11 @@
             height: 45%;
         }
         .sub-imagenscroll{
-            position: relative;
-            top: 8vh;
-            left: 85%;
+            position: absolute;
+            top: 88%;
+            left: 88%;
         }
+        
         .acercade h1{
             margin: 0px 0 10px 0;
         }
@@ -122,11 +148,7 @@
         height: 100%;
         left: 20px;
     }
-    .sub-imagenscroll{
-        position: relative;
-            top: 6vh;
-            left: 89%;
-    }
+    
 
     #life{
         padding-top: 20%;
@@ -158,11 +180,7 @@
 }
 
 @media (min-width: 550px) {
-    .sub-imagenscroll{
-        position: relative;
-            top: 10vh;
-            left: 89%;
-    }
+   
 
 }
 
@@ -173,15 +191,19 @@
     }
     .acercade{
         width: 35%;
-        height: 100%;
+        height: 75%;
         left: 20px;
     }
+
+    .imagen-principal{
+        height: 100%;
+        width: 100%;
+    }
     .sub-imagenscroll{
-        position: relative;
-            height: 50px;
-            width: 50px;
-            top: 3vh;
-            left: 88%;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+
     }
 }
 
@@ -219,9 +241,9 @@
     }
     .perros-img{
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 15% 25% 15% 25%;
         align-items: center;
-        margin-left: 10%;
+        margin-left: 30%;
     }
 }
 
