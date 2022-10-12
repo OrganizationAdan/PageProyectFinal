@@ -6,6 +6,7 @@
 }
 
 body{
+    margin: 0;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -33,15 +34,14 @@ header .nav-derecha{
 }
 
 header .bsc-space{
-    margin-right: 0px;
+    margin-right: 100px;
     margin-top: 3px;
-
 }
+
 header .nav-2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
 
 header .nav-2 a {
@@ -68,7 +68,6 @@ header .nav-2 a {
 
 .buscar:hover{
     width:140px;
-    margin-right: 40px;
 }
 
 .buscar input:hover{
@@ -77,7 +76,7 @@ header .nav-2 a {
 
 .icon {
     width: 25px;
-    height: 25spx;
+    height: 25px;
     margin: 2px;
     align-items: center;
     text-align: center;
@@ -118,19 +117,20 @@ header .nav-2 a {
     margin: 80%;
     height: 50%;
     text-align: center;
+    border-radius: 6px;
 }
 
 .acercade{
     position: relative;
-    width:50%;
+    width:60%;
     height: 100%;
-    color: rgb(13, 13, 13);
+    color: white;
     text-align:justify;
-    padding: 1.5rem 1.5rem;
+    padding: 2rem 2rem;
     border-radius: 6px;
     box-shadow: 0 0px 25px #222 ;
     border: 1px solid #ffffff40;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(5px);
     font-size: 10px;
     left: 30px;
     top: 30px;
@@ -138,16 +138,62 @@ header .nav-2 a {
 
 
 .filter{
-    -webkit-backdrop-filter: blur(15px);
     background-color: rgba(243, 243, 243, 0.2);
 }
 
 .sub-imagenscroll{
     position: absolute;
     height: 30px;
-    width: 40px;
+    width: 35px;
     top: 60%;
-    left: 80%;
+    left: 78%;
+    border-radius: 50%;
+}
+
+#container h1{
+    text-align: center;
+}
+
+#life{
+    padding-top: 28%;
+    text-align: center;
+}
+
+#life .container2{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 70%;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#life span{
+    color: green;
+}
+
+#life p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.perros-img{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perros-img h1{
+    color: #03032F;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'cursive';
+}
+
+.img-perros{
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
 }
 
 .container {
@@ -166,4 +212,31 @@ header .nav-2 a {
     .container {
         width: 70%;
     }
+}
+
+
+footer{
+    background-color: #03032F;
+    color: white;
+    font-size: 7px;
+}
+.img-footer{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.principal-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

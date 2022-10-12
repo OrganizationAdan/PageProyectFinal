@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body{
-    background-image: url(back.jpg);
+    background-image: url(../IMG/back.jpg);
     background-position: right;
     background-size: cover;
 }
@@ -71,7 +72,7 @@ img{
     border: none;
     width: 395px;
     height: 48px;
-    background-color: #1877f2;
+    background-color: #03032F;
     color: #ffffff;
     font-size: 20px;
     border-radius: 6px;
@@ -79,7 +80,7 @@ img{
 }
 
 .registrarse button:hover{
-    background-color: #1566cf;
+    background-color: #25255a;
 }
 
 .reg a{
