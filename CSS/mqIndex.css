@@ -9,6 +9,13 @@
     
 }
 
+@media (max-width: 600px ) {
+    .logo{
+        display: none;
+    }
+    
+}
+
 @media (min-width: 280px ) {
     .imagen-principal{
     height: 54%;
@@ -22,27 +29,31 @@
         font-size: 8px;
     }
     #life{
-        padding-top: 35%;
+        padding-top: 37%;
     }
 
     .buscar{
-        width: 55px;
-        height: 24px;
+        width: 25px;
         transition: all 0.6s ease; 
     }
     .buscar:hover{
-        width:120px;
+        width:50px;
     }
     
     .buscar input:hover{
-        width: 120px;
+        width: 100px;
         
+    }
+
+    .icon{
+        width: 15px;
+        height: 15px;
     }
 }
 
 @media (min-width: 359px) {
     #life{
-        padding-top: 32%;
+        padding-top: 34%;
     }
     .acercade{
         width: 75%;
@@ -50,11 +61,33 @@
         left: 35px;
     }
     .imagen-principal{
-        height: 48%;
+        height: 50%;
+    }
+
+    .sub-imagenscroll{
+        top: 60%;
     }
     header .bsc-space{
         margin-right: 90px;
         margin-top: 3px;
+    }
+    .enlaces{
+        width: 97%;
+    }
+
+    .buscar{
+        width: 40px;
+        height: 24px;
+        transition: all 0.6s ease; 
+    }
+
+    .buscar:hover{
+        width:80px;
+
+    }
+    
+    .buscar input:hover{
+        width: 140px;
     }
 }
 
@@ -219,9 +252,9 @@
     }
     .perros-img{
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 15% 25% 15% 25%;
         align-items: center;
-        margin-left: 10%;
+        margin-left: 30%;
     }
 }
 

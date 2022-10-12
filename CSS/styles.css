@@ -21,7 +21,6 @@ header .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 10px;
 }
 
 header .espacio{
@@ -46,6 +45,12 @@ header .nav-2{
 
 header .nav-2 a {
     margin-right: 10px;
+}
+header .column{
+    margin: 20px;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .buscar{
@@ -82,6 +87,13 @@ header .nav-2 a {
     text-align: center;
 }
 
+.logo-direccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .enlaces{
     display: flex;
     flex-direction: row;
@@ -89,7 +101,9 @@ header .nav-2 a {
     align-items: center;
     background-color: #03032F;
     color:white;
-    margin-bottom: 20px;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
 }
 
 .home{
@@ -100,19 +114,19 @@ header .nav-2 a {
     margin: 13px;
     text-decoration: none;
     color: white;
-    margin-right: 10px;
+    
 }
 
 .items{
     display: flex;
     flex-direction: row;
-    margin-right: 10px;
     font-size: 12px;
     text-decoration: none;
 }
 
 .imagen-principal{
     position: absolute;
+    object-position: none;
     background-image: url(../IMG/IMAGEN-PRINCIPAL.jpg);
     margin: 80%;
     height: 50%;
