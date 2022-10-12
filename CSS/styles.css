@@ -44,7 +44,7 @@ header .nav-2{
 }
 
 header .nav-2 a {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 header .column{
     margin: 20px;
@@ -72,11 +72,11 @@ header .column{
 }
 
 .buscar:hover{
-    width:140px;
+    width:100px;
 }
 
 .buscar input:hover{
-    width: 140px;
+    width: 120px;
 }
 
 .icon {
@@ -104,6 +104,7 @@ header .column{
     text-align: center;
     margin: 10px;
     height: 40px;
+    width: 100%;
 }
 
 .home{
@@ -124,30 +125,30 @@ header .column{
     text-decoration: none;
 }
 
-.imagen-principal{
-    position: absolute;
-    object-position: none;
+.espacio-imgP{
     background-image: url(../IMG/IMAGEN-PRINCIPAL.jpg);
-    margin: 80%;
-    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
     text-align: center;
     border-radius: 6px;
+    position: relative;
 }
 
 .acercade{
-    position: relative;
     width:60%;
-    height: 100%;
+    
     color: white;
     text-align:justify;
     padding: 2rem 2rem;
     border-radius: 6px;
-    box-shadow: 0 0px 25px #222 ;
+    box-shadow: 0 0px px #222 ;
     border: 1px solid #ffffff40;
     backdrop-filter: blur(5px);
     font-size: 10px;
     left: 30px;
     top: 30px;
+    position: absolute;
 }
 
 
@@ -169,7 +170,7 @@ header .column{
 }
 
 #life{
-    padding-top: 28%;
+    padding-top: 10%;
     text-align: center;
 }
 
