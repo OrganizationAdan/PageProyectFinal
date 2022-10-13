@@ -110,16 +110,14 @@
 }
 
 @media (min-width: 410px) {
-        #life{
-            padding-top: 30%;
-        }
         .acercade{
-            width: 68%;
-            height: 100%;
-            left: 17%;
+            width: 50%;
+            height: 85%;
+            left: 5%;
+            padding: 1.5rem 1.5rem;
         }
         .imagen-principal{
-            height: 45%;
+            height: 420px;
         }
         .sub-imagenscroll{
             position: absolute;
