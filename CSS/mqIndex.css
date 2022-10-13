@@ -110,16 +110,14 @@
 }
 
 @media (min-width: 410px) {
-        #life{
-            padding-top: 30%;
-        }
         .acercade{
-            width: 68%;
-            height: 100%;
-            left: 17%;
+            width: 50%;
+            height: 85%;
+            left: 5%;
+            padding: 1.5rem 1.5rem;
         }
         .imagen-principal{
-            height: 45%;
+            height: 420px;
         }
         .sub-imagenscroll{
             position: absolute;
@@ -143,18 +141,6 @@
     .items{
         margin-right: 30px;
     }
-    .acercade{
-        width: 45%;
-        height: 100%;
-        left: 20px;
-    }
-    
-
-    #life{
-        padding-top: 20%;
-        text-align: center;
-    }
-
     .buscar{
         width: 100px;
         height: 24px;
@@ -163,8 +149,7 @@
     .buscar:hover{
         width:140px;
 
-    }
-    
+    }    
     .buscar input:hover{
         width: 140px;
     }
@@ -179,33 +164,64 @@
 
 }
 
-@media (min-width: 550px) {
-   
-
-}
-
 @media (min-width: 600px) {
-    #life{
-        padding-top: 13%;
-        text-align: center;
-    }
     .acercade{
-        width: 35%;
-        height: 75%;
+        width: 40%;
+        height: 70%;
         left: 20px;
+        top: 15%;
+        font-size: 13px;
     }
-
     .imagen-principal{
-        height: 100%;
+        height: 590px;
         width: 100%;
     }
-    .sub-imagenscroll{
-        position: absolute;
-        height: 50px;
-        width: 50px;
+    .nav-2 a{
+        font-size: 15px;
+    }
+    .items{
+        padding-right: 20px;
+    }
+    .home{
+        font-size: 17px;
+    }
+    .items nav a{
+        margin-right: 20px;
+        font-size: 13px;
+    }
 
+    .items {
+        margin-right: 0px;
+    }
+    #buscar {
+        width: 180px;
+    }
+    .buscar{
+        position: absolute;
+       width: 220px;
+       left: 40px;
+    }
+    .buscar:hover{
+        width:260px;
+    }
+    .buscar input:hover{
+        width: 260px;
+    }
+    header .bsc-space{
+        margin-right: 0;
+    }
+    .logo-direccion{
+        margin: 10px;
+    }
+    .perros-img{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        align-items: center;
+        margin-left: 10px;
     }
 }
+
+//TODO: aqui quede el 12 de octubre
 
 @media (min-width: 700px) {
     #life{
@@ -239,12 +255,7 @@
     #life p{
         font-size: 15px;
     }
-    .perros-img{
-        display: grid;
-        grid-template-columns: 15% 25% 15% 25%;
-        align-items: center;
-        margin-left: 30%;
-    }
+    
 }
 
 @media (min-width: 750px) {
