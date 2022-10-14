@@ -27,7 +27,6 @@
     }
     .acercade{
         width: 80%;
-        height: 85%;
     }
 
     .acercade button{
@@ -221,7 +220,7 @@
     }
 }
 
-//TODO: aqui quede el 12 de octubre
+/*TODO: aqui quede el 12 de octubre*/
 
 @media (min-width: 700px) {
     #life{
