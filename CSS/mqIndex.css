@@ -223,19 +223,24 @@
 
 @media (min-width: 750px) {
     .imagen-principal{
-        height: 60%;
+        height: 670px;
+    }
+    .acercade h1{
+        margin: 0px 19px 19px 19px;
+        font-size: 25px;
+    }
+    .acercade p{
+        margin: 10px;
+        font-size: 14px;
+    }
+    .sub-imagenscroll{
+        position: absolute;
+        top: 91%;
+        left: 91%;
     }
 }
 
 @media (min-width: 800px) {
-    .container2 p{
-        font-size: 80px;
-    }
-    .sub-imagenscroll{
-        position: absolute;
-        top: 92%;
-        left: 92%;
-    }
     #life .container2{
         font-size: 30px;
     }
@@ -251,64 +256,69 @@
     }
 
     .sub-imagenscroll{
-        width: 40px;
-        height: 30px;
+        width: 50px;
+        height: 45px;
     }
 
     .buscar{
-        width: 120px;
+        position: relative;
+        width: 280px;
         height: 24px;
         transition: all 0.6s ease; 
         margin: 0;
         padding: 0;
     }
+    .buscar input{
+        height: 30px ;
+    }
+    .itemsNav i{
+        font-size: 40px;
+    }
     .buscar:hover{
-        width:220px;
+        width:300px;
     }
     
     .buscar input:hover{
-        width: 220px;
+        width: 380px;
+    }
+
+    .rayas{
+        width: 35px;
+        height: 35px;
+    }
+    .perfil{
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
     }
 }
 
 @media (min-width: 900px) {
-    .home, .items{
-        font-size: 15px;
-    }
-
-    .items a{
-        margin-right: 30px;
-    }
     .acercade{
-        position: absolute;
-        width: 20%;
-        height: 30%;
-        top: 200px;
-        left: 120px;
-    }
-
-    .buscar{
-        width: 180px;
-        height: 24px;
-        transition: all 0.6s ease; 
-        margin: 0;
-        padding: 0;
-    }
-    .buscar:hover{
-        width:220px;
+        width: 30%;
+        height: 75%;
+        left: 20px;
+        top: 10%;
+        font-size: 13px;
     }
     
-    .buscar input:hover{
-        width: 220px;
+    #life{
+        padding: 5%;
     }
-}
-
-@media (min-width: 1000px) {
-    .acercade{
-        position: absolute;
-        width: 20%;
-        height: 30%;
-        top: 200px;
-        left: 180px;
+    .perros-img{
+        display: grid;
+        grid-template-columns: 24% 25% 24% 25%;
+        align-items: center;
+        margin-left: 15%;
+    }
+    header{
+        padding: 10px;
+    }
+    .nav-2 .items{
+        font-size: 20px;
+    }
+    .items nav a {
+        margin-right: 20px;
+        font-size: 16px;
     }
 }
