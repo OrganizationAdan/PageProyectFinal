@@ -181,7 +181,7 @@ header .column{
     margin-bottom: 10px;
 }
 
-#life span{
+#life span.p-color{
     color: green;
 }
 
