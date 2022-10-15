@@ -1,0 +1,112 @@
+*{
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+header .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .espacio{
+    margin-top: 6px;
+}
+
+header .nav-derecha{
+    display: flex;
+    align-items: center;
+}
+
+header .bsc-space{
+    margin-right: 100px;
+    margin-top: 3px;
+}
+
+header .nav-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .nav-2 a {
+    margin-right: 5px;
+}
+header .column{
+    margin: 20px;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buscar{
+    display: flex;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 100px;
+    height: 20px;
+    padding: 0 20px;
+    font-size: 10px;
+    color:black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+
+}
+
+.buscar:hover{
+    width:100px;
+}
+
+.buscar input:hover{
+    width: 120px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-direccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03032F;
+    color:white;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+.home{
+    margin-left: 10px;
+}
