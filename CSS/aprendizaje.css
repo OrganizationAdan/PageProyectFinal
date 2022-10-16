@@ -8,6 +8,7 @@
 body{
     margin: 0;
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 header{
@@ -109,4 +110,105 @@ header .column{
 
 .home{
     margin-left: 10px;
+}
+
+
+h4{
+    text-transform: uppercase;
+    color: rgb(5, 33, 65);
+    font-size: x-large;
+}
+
+.bienvenida{
+    background-image: url(../IMG/fondo_bienvenida.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.mensaje{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 500px;
+    margin-top: 95px;
+    padding: 25px;
+    padding-right: 85px;
+    padding-top: 85px;
+    text-align: center;
+    margin-left: 100px;
+    color: white;
+
+}
+
+.info{  
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.tema{
+    clear: left;
+    float: left;
+    width: 350px;
+    height: 250px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+  }
+
+
+.descripcion{
+    float: right;
+    padding-top: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+    line-height: 0.65cm;
+    margin-bottom: 20px;
+}
+
+.bot-det{
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 7px;
+    background-color:rgb(14, 41, 63);
+    color: white;
+   
+}
+
+footer{
+    background-color: #03032F;
+    color: white;
+    font-size: 7px;
+    clear: both;
+}
+.img-footer{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.principal-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
