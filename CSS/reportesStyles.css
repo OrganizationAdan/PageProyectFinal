@@ -1,3 +1,197 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body{
     margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+header .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .espacio{
+    margin-top: 6px;
+}
+
+header .nav-derecha{
+    display: flex;
+    align-items: center;
+}
+
+header .bsc-space{
+    margin-right: 100px;
+    margin-top: 3px;
+}
+
+header .nav-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .nav-2 a {
+    margin-right: 5px;
+}
+
+.buscar{
+    display: flex;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 100px;
+    height: 20px;
+    padding: 0 20 px;
+    font-size: 10px;
+    color:black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.buscar:hover{
+    width: 140px;
+}
+
+.buscar input:hover{
+    width: 140px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    align-items: center;
+    text-align: center;
+}
+.logo-direccion{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-color: #03032F;
+}
+div .titulo-reportes{
+    background-color: none;
+    color:aliceblue;
+    
+}
+
+.espacioR{
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    border-radius: 6px;
+    position: relative;
+}
+
+body{
+    background-image: url(../IMG/perro\ chocolate.jpg)
+}
+.form-reporte{
+    width: 400px;
+    background-color: #f5edbe;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-reporte h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.form-reporte p{
+    height: 40px;
+    text-align:center ;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-reporte a{
+    color: rgb(255, 3, 3);
+    text-decoration: underline;
+
+}
+.form-reporte .boton{
+    width: 100%;
+    background: #660000;
+    border: #f5e6be;
+    padding: 12px;
+    color: aliceblue;
+    margin: 16px 0;
+    font-size: 16px;
+
+
+}
+
+.controls{
+    width: 50%;
+    background: #94a1ec;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #660000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #03032F;
+    color: white;
+    font-size: 7px;
+}
+.img-footer{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.principal-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
