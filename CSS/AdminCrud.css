@@ -1,0 +1,241 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+header {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .espacio {
+  margin-top: 6px;
+}
+
+header .nav-derecha {
+  display: flex;
+  align-items: center;
+}
+
+header .bsc-space {
+  margin-right: 100px;
+  margin-top: 3px;
+}
+
+header .nav-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .nav-2 a {
+  padding-right: 15px;
+}
+header .column {
+  margin: 20px;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buscar {
+  display: flex;
+  padding: 5px;
+}
+
+.buscar input {
+  width: 100px;
+  height: 20px;
+  padding: 0 20px;
+  font-size: 10px;
+  color: black;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  transition: all 0.6s ease;
+}
+
+.buscar:hover {
+  width: 100px;
+}
+
+.buscar input:hover {
+  width: 120px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-direccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enlaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #03032f;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.home {
+  margin-left: 10px;
+}
+
+.enlaces a {
+  margin: 13px;
+  text-decoration: none;
+  color: white;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.body {
+}
+
+.body-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body-panel p {
+  margin: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.body-panel nav {
+  margin: 5px;
+  padding: 5px;
+}
+
+.body-panel a {
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.body-btn {
+  padding: 5px;
+  margin: 5px;
+  margin-left: 9px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid gray;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.body-edit {
+  margin-left: 3vw;
+}
+
+.body-edit * {
+  color: white;
+}
+
+.body-crud {
+  background-color: rgb(32, 32, 32);
+  max-width: 95%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2vh 0;
+}
+
+.form-crud input {
+  border: none;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.form-crud textarea {
+  border: none;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.action-btn {
+  margin: 1vh 0;
+}
+
+.action-btn * {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  padding: 5px;
+  margin: 0 3px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+h2 {
+  padding: 10px;
+}
+
+.body button:hover {
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.body a:hover {
+  background-color: rgba(255, 255, 255, 0.486);
+}
+
+@media (min-width: 460px) {
+  body {
+    background-image: url("/IMG/perro\ chocolate.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .form-crud {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .body-edit {
+    padding-left: 5vw;
+  }
+}
