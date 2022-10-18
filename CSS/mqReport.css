@@ -15,11 +15,6 @@
     }
     
 }
-@media (max-width: 1100px) {
-    .p-invisible{
-        display: none;
-    }
-}
 
 @media (min-width: 280px ) {
     .nav-2 a{
@@ -249,18 +244,22 @@
     #life .container2{
         font-size: 30px;
     }
+
     #life p{
         font-size: 18px;
     }
+
     .perros-img{
         display: grid;
         -ms-grid-column-align: center;
         margin-left: 20px;
     }
+
     .sub-imagenscroll{
         width: 50px;
         height: 45px;
     }
+
     .buscar{
         position: relative;
         width: 280px;
@@ -278,9 +277,11 @@
     .buscar:hover{
         width:300px;
     }
+    
     .buscar input:hover{
         width: 380px;
     }
+
     .rayas{
         width: 35px;
         height: 35px;
@@ -319,60 +320,5 @@
     .items nav a {
         margin-right: 20px;
         font-size: 16px;
-    }
-    .buscar input{
-        height: 35px ;
-        padding: 20px;
-    }
-    .itemsNav i{
-        font-size: 40px;
-    }
-    .buscar:hover{
-        width:300px;
-    }
-    
-    .buscar input:hover{
-        width: 380px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .logo{
-        height: 200px;
-        width: 200px;
-    }
-    .enlaces{
-        padding: 40px;
-    }
-    .home{
-    font-size: 30px;
-    }
-    .items nav a{
-        font-size: 24px;
-    }
-    .nav-2 .items{
-        font-size: 24px;
-    }
-    .acercade{
-        width: 25%;
-        height: 80%;
-        left: 8%;
-    }
-    .acercade p{
-        padding: 15px ;
-        font-size: 15px;
-    }
-    .imagen-principal{
-        height: 680px;
-        background-repeat: no-repeat;
-    }
-    #life .container2{
-        font-size: 50px;
-    }
-    #life p{
-        font-size: 20px;
-    }
-    #life .p-invisible{
-        font-size: 25px;
     }
 }
