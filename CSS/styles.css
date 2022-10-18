@@ -44,7 +44,7 @@ header .nav-2{
 }
 
 header .nav-2 a {
-    margin-right: 5px;
+    padding-right: 15px;
 }
 header .column{
     margin: 20px;
@@ -181,7 +181,7 @@ header .column{
     margin-bottom: 10px;
 }
 
-#life span{
+#life span.p-color{
     color: green;
 }
 
