@@ -289,6 +289,7 @@ header .column{
     height: 100%;
 }
 
+
 .a-img{
     margin-left: 5px;
 }
@@ -297,6 +298,14 @@ header .column{
     border-radius: 30px;
     margin-top: 0px;
 }
+
+.contenedor-img a{
+    text-decoration: none;
+}
+.contenedor-img a h1{
+    margin: 10px;
+}
+
 footer{
     background-color: #03032F;
     color: white;
