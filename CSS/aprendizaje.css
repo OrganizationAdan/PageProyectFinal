@@ -8,6 +8,7 @@
 body{
     margin: 0;
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 header{
@@ -44,7 +45,7 @@ header .nav-2{
 }
 
 header .nav-2 a {
-    padding-right: 15px;
+    margin-right: 5px;
 }
 header .column{
     margin: 20px;
@@ -111,128 +112,85 @@ header .column{
     margin-left: 10px;
 }
 
-.enlaces a{
-    margin: 13px;
-    text-decoration: none;
-    color: white;
-    
+
+h4{
+    text-transform: uppercase;
+    color: rgb(5, 33, 65);
+    font-size: x-large;
 }
 
-.items{
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    text-decoration: none;
-}
-
-.espacio-imgP{
-    background-image: url(../IMG/IMAGEN-PRINCIPAL.jpg);
-    background-repeat: no-repeat;
+.bienvenida{
+    background-image: url(../IMG/fondo_bienvenida.jpg);
     background-size: cover;
-    height: 100%;
-    text-align: center;
-    border-radius: 6px;
-    position: relative;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 
-.acercade{
-    width:60%;
+.mensaje{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 500px;
+    margin-top: 95px;
+    padding: 25px;
+    padding-right: 85px;
+    padding-top: 85px;
+    text-align: center;
+    margin-left: 100px;
     color: white;
-    text-align:justify;
-    padding: 2rem 2rem;
-    border-radius: 6px;
-    box-shadow: 0 0px px #222 ;
-    border: 1px solid #ffffff40;
-    backdrop-filter: blur(5px);
-    font-size: 10px;
-    left: 30px;
-    top: 30px;
-    position: absolute;
+
+}
+
+.info{  
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.tema{
+    clear: left;
+    float: left;
+    width: 350px;
+    height: 250px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
-.filter{
-    background-color: rgba(243, 243, 243, 0.2);
+img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+  }
+
+
+.descripcion{
+    float: right;
+    padding-top: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+    line-height: 0.65cm;
+    margin-bottom: 20px;
 }
 
-.sub-imagenscroll{
-    position: absolute;
-    height: 30px;
-    width: 35px;
-    top: 60%;
-    left: 78%;
-    border-radius: 50%;
+.bot-det{
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 7px;
+    background-color:rgb(14, 41, 63);
+    color: white;
+   
 }
-
-#container h1{
-    text-align: center;
-}
-
-#life{
-    padding-top: 10%;
-    text-align: center;
-}
-
-#life .container2{
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 70%;
-    font-size: 17px;
-    margin-bottom: 10px;
-}
-
-#life span.p-color{
-    color: green;
-}
-
-#life p{
-    text-align: center;
-    font-size: 13px;
-}
-
-.perros-img{
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.perros-img h1{
-    color: #03032F;
-    font-size: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'cursive';
-}
-
-.img-perros{
-    margin: 10px;
-    width: 200px;
-    height: 180px;
-    border-radius: 50%;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 80%;
-}
-
-@media only screen and (min-width: 601px) {
-    .container {
-        width: 85%;
-    }
-}
-
-@media only screen and (min-width: 993px) {
-    .container {
-        width: 70%;
-    }
-}
-
 
 footer{
     background-color: #03032F;
     color: white;
     font-size: 7px;
+    clear: both;
 }
 .img-footer{
     display: flex;
