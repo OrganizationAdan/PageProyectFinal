@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin CRUD</title>
+    <link rel="stylesheet" href="/CSS/AdminCrud.css" />
+    <link rel="stylesheet" href="/CSS/mqIndex.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <section class="nav">
+        <div class="espacio">
+          <a href="#">
+            <img
+              class="rayas"
+              src="/IMG/indexIMG/3rayas.jpg"
+              alt=""
+              srcset=""
+              width="20px"
+              height="20px"
+            />
+          </a>
+        </div>
+        <section class="nav nav-derecha">
+          <div class="buscar bsc-space nav-2">
+            <input id="buscar" type="text" placeholder="Buscar" required />
+            <a class="items lupitas" href="#buscar">
+              <i id="lupa" class="fa-solid fa-magnifying-glass icon"></i>
+            </a>
+          </div>
+          <div class="nav-2">
+            <a class="items" href="PAGES/LOGIN.html">LOGN IN</a>
+            <a class="items" href="PAGES/SignUP.html">SIGN UP</a>
+            <a href="#">
+              <img
+                class="perfil"
+                src="/IMG/indexIMG/usuario.jpg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+            </a>
+          </div>
+        </section>
+      </section>
+
+      <div class="logo-direccion">
+        <a href="index.html">
+          <img class="logo" src="/IMG/indexIMG/logo.png" alt="" width="125px" />
+        </a>
+        <div class="enlaces">
+          <a class="column" href="../index.html">
+            <i class="fa-solid fa-house-chimney home"></i>
+          </a>
+
+          <div class="items">
+            <nav>
+              <a class="column" href="#"> ACERCA DE </a>
+              <a class="column" href="/PAGES/reporte.html"> REPORTES </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="body">
+      <div class="body-panel">
+        <p>ADMIN PANEL</p>
+        <nav>
+          <a href="">Ver articulo</a>
+          <a href="">Agregar articulo</a>
+        </nav>
+      </div>
+
+      <div class="body-edit">
+        <div class="body-crud">
+          <h2>Agregar articulo</h2>
+          <form action="" class="form-crud">
+            <input type="text" placeholder="Titulo" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Contenido"
+            ></textarea>
+            <div class="action-btn">
+              <button>Guardar</button>
+              <button>Borrar</button>
+              <button>Cargar Archivo</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="body-edit">
+        <div class="body-crud">
+          <h3>Sobre nosotros</h3>
+          <div class="action-btn">
+            <button>editar</button>
+            <button>Borrar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="body-edit">
+        <div class="body-crud">
+          <h3>Reportes</h3>
+          <div class="action-btn">
+            <button>editar</button>
+            <button>Borrar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="body-edit">
+        <div class="body-crud">
+          <h3>Por que los perros son god y los gatos zzz?</h3>
+          <div class="action-btn">
+            <button>editar</button>
+            <button>Borrar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>
