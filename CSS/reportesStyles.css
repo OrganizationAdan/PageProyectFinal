@@ -8,15 +8,21 @@
 body{
     margin: 0;
     font-family: 'PT Sans', sans-serif;
+    background-image: none;
+    background-size: cover;
+   
+    
+    
 }
 
 header{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: rgb(255, 255, 255);
-
+    margin-top:1x;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: none,
 }
+
+
 
 header .nav{
     display: flex;
@@ -77,6 +83,7 @@ header .nav-2 a {
     flex-direction: row;
     font-size: 12px;
     text-decoration: none;
+    color: rgb(0, 66, 33);
 }
 
 .icon {
@@ -90,11 +97,13 @@ header .nav-2 a {
     display: flex;
     justify-content:left;
     align-items: center;
-    background-color: #03032F;
+    background-color:#032f28 ;
 }
 div .titulo-reportes{
-    background-color: none;
+    
+    height: 70px;
     color:aliceblue;
+
     
 }
 
@@ -108,16 +117,30 @@ div .titulo-reportes{
     position: relative;
 }
 
-body{
-    background-image: url(../IMG/perro\ chocolate.jpg)
+.fondo{
+    background-image: url(../IMG/ReportesIMG/fondoMascota.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    border-radius: 6px;
+    position: relative;
+    
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 80%;
 }
 .form-reporte{
     width: 400px;
-    background-color: #f5edbe;
-    padding: 30px;
+    background-color: rgba(2, 4, 35, 0.811);
+    color: #edeef8;
+    padding: 45px;
     margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
+    margin-top: 90px;
+    border-radius: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     box-shadow: 7px 13px 37px #000;
 }
@@ -126,39 +149,53 @@ body{
     font-size: 22px;
     margin-bottom: 20px;
 }
+.form-reporte h3{
+    font-size: 20px;
+    text-align:justify;
+}
 .form-reporte p{
-    height: 40px;
+    height: 70px;
     text-align:center ;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 17px;
+    line-height: 30px;
 }
 .form-reporte a{
-    color: rgb(255, 3, 3);
+    color: rgb(21, 224, 255);
     text-decoration: underline;
 
 }
 .form-reporte .boton{
     width: 100%;
-    background: #660000;
-    border: #f5e6be;
+    background: #00611b;
+    border: #ffffff;
     padding: 12px;
     color: aliceblue;
     margin: 16px 0;
     font-size: 16px;
+    box-shadow: 7px 13px 37px #000;
 
+}
+
+.form-reporte .caja-de-comentario{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 250px;
+    padding: 15px;
+    font-size: 17px;
+    margin: 7px;
 
 }
 
 .controls{
-    width: 50%;
-    background: #94a1ec;
-    padding: 10px;
+    width: 90%;
+    background: #ffffff;
+    padding: 8px;
     border-radius: 5px;
-    margin-bottom: 16px;
-    border: 1px solid #660000;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
+
 
     
 
