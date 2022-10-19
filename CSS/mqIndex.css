@@ -185,7 +185,7 @@
         font-size: 15px;
     }
     .items{
-        padding-right: 20px;
+        padding: 5px 15px 5px 15px;
     }
     .home{
         font-size: 17px;
@@ -310,6 +310,10 @@
         align-items: center;
         margin-left: 15%;
     }
+    .img-perros{
+        width: 250px;
+        height: 250px;
+    }
     header{
         padding: 10px;
     }
@@ -354,7 +358,7 @@
         font-size: 24px;
     }
     .acercade{
-        width: 25%;
+        width: 33%;
         height: 80%;
         left: 8%;
     }
@@ -374,5 +378,44 @@
     }
     #life .p-invisible{
         font-size: 25px;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .img-perros{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1200px ) {
+    .container-departamento{
+        grid-template-columns: 100%;
+    }
+    .contenedor-img img{
+        width:400px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor-img img{
+        width: 200px;
+        height: 100%;
+    }
+    
+}
+
+@media (max-width: 450px ) {
+    .departamentos{
+        font-size: 12px;
+    }
+
+    .contenedor-img{
+        font-size: 10px;
+    }
+    #departamentos{
+        margin: 20% 2% 10% 2% ;
     }
 }
