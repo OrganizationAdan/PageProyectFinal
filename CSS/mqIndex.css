@@ -185,7 +185,7 @@
         font-size: 15px;
     }
     .items{
-        padding-right: 20px;
+        padding: 5px 15px 5px 15px;
     }
     .home{
         font-size: 17px;
@@ -375,4 +375,23 @@
     #life .p-invisible{
         font-size: 25px;
     }
+}
+
+
+@media (max-width: 1200px ) {
+    .container-departamento{
+        grid-template-columns: 100%;
+    }
+    .contenedor-img img{
+        width:400px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor-img img{
+        width: 200px;
+        height: 100%;
+    }
+    
 }
