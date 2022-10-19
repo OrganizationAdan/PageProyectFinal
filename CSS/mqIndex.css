@@ -382,6 +382,13 @@
 }
 
 
+@media (min-width: 1300px) {
+    .img-perros{
+        width: 300px;
+        height: 300px;
+    }
+}
+
 @media (max-width: 1200px ) {
     .container-departamento{
         grid-template-columns: 100%;
