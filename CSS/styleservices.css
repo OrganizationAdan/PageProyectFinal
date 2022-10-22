@@ -2,65 +2,79 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
-
-body{
     font-family: 'Times New Roman', Times, serif;
 }
+body{
+    background-color: brown;
+}
 
-
-.header{
-    width: 10%;
-    height: auto;
+header{
+    width: auto;
+    height: 120px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.286);
     position: relative;
-    border: cornflowerblue;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.background_banner{
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-video{
-    width: 100%;
-}
-
-.absolute{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
+.back-header{
+    
     position: absolute;
+    left: 10px;
+}
+
+.back-buttom{
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.456);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px 0 0 25px;
+    border-color: #fff;
+    padding: 15px 40px;
+    color: #fff;
+    text-decoration: none;
+    margin: 15px;
+    line-height: 28px;
     text-align: center;
+}
+
+.logo-header img{
+    width: 236px;
+    height: 100px;
+    object-fit: cover;
+    }
+
+.content{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    margin-top: 7%;
 }
 
-h2{
-    font-size: 80px;
-    font-weight: 900px;
-    z-index: 100;
-    color: aliceblue;
-    margin-bottom: 30px;
+.title-serv{
+    margin-bottom: 2%;
+    font-size: 40px;
 }
 
-h2::after{
-    display: block;
-    width: 30%;
-    height: 10px;
-    content: "";
-    margin: auto;
-    background-color: antiquewhite;
+.content-serv{
+    display: flex;
 }
 
-.overlay{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.577);
+.contenedor-bowl{
+    width: 200px;
+    height: 200px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
 }
 
-p{
-    z-index: 100;
-}
+
+
