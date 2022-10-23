@@ -49,6 +49,7 @@
 @media (min-width: 280px ) {
     .nav-2 a{
         font-size: 9px;
+        padding: 0px 10px 0px 10px;
     }
     .imagen-principal{
         background-repeat: no-repeat;
@@ -56,7 +57,7 @@
         height: 420px;
     }
     .acercade{
-        width: 80%;
+        width: 75%;
         height: 85%;
     }
 
@@ -427,7 +428,9 @@
         width: 200px;
         height: 100%;
     }
-    
+    #departamentos{
+        margin: 3%;
+    }
 }
 
 @media (max-width: 450px ) {
