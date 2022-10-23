@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background-image: url("../IMG/IMGAbout/perrito.jpg");
+    width: 100%;
+    height: 68.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 600px;
+}
+
+.content-box{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.content-box{
+    color: white;
+    padding: 50px;
+}
+
+.content-box h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.content-box p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.column h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
