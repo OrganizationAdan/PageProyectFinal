@@ -8,6 +8,7 @@
 body{
     font-family: 'PT Sans', sans-serif;
     background-image: linear-gradient(to top, #dfe9df 0%, white 100%);
+    background-size: 100%;
 }
 
 header{
@@ -44,7 +45,7 @@ header .nav-2{
 }
 
 header .nav-2 a {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 header .column{
@@ -132,9 +133,19 @@ header .column{
     text-decoration: none;
 }
 
-.logn-in:hover, .signUP:hover, .boton-cont:hover{
+.boton-cont{
+    position: relative;
+    left: 30%;
+    padding: 10px;
+}
+
+.logn-in:hover, .signUP:hover{
     background-color: black;
     color: antiquewhite;
+}
+
+.boton-cont:hover{
+    color:red
 }
 
 .logn-in{
@@ -289,6 +300,11 @@ header .column{
     height: 100%;
 }
 
+.boton-ver{
+    margin-top: 30%;
+    border-radius: 20px;
+    padding: 10px;
+}
 
 .a-img{
     margin-left: 5px;
@@ -306,28 +322,98 @@ header .column{
     margin: 10px;
 }
 
-footer{
+footer {
     background-color: #03032F;
-    color: white;
-    font-size: 7px;
-}
-.img-footer{
-    display: flex;
-    width: 100px;
-    height: 100px;
+    color: #c5c5c5;
 }
 
-.principal-footer {
+.divisorR{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 10px 10px 0px 10px;
     justify-content: space-between;
-    padding: 10px;
+    padding: 100px 150px 50px 150px;
 }
 
-.div-footer{
+.sub-divR{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+}
+
+.sub-divR h1{
+    margin-bottom: 20px;
+}
+
+.semper a{
+    text-decoration: none;
+    color: #c5c5c5;
+
+}
+
+.color-hoverF:hover{
+    color: red;
+}
+
+.semper h3{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0px;
+}
+
+.raya{
+    width: 180%;
+}
+
+.raya2{
+    position: relative;
+    left: 15%;
+    width: 70%;
+}
+
+.enlaces-footer a{
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+}
+
+.enlaces-footer div a img{
+    width: 40px;
+    height: 40px;
+}
+
+.div-enlaces{
+    padding: 10px;
+}
+
+.div-enlaces a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.enlaces-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.div-enlaces a img{
+    margin-right: 10px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    padding: 1% 10% 6% 10%;
+}
+
+
+.p-atencion{
+    margin: 20px 0px 40px 0px;
+    text-align: justify;
+}
+.Atencion{
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: end;
 }
