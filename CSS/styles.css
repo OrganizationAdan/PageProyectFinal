@@ -8,6 +8,7 @@
 body{
     font-family: 'PT Sans', sans-serif;
     background-image: linear-gradient(to top, #dfe9df 0%, white 100%);
+    background-size: 100%;
 }
 
 header{
@@ -138,9 +139,13 @@ header .column{
     padding: 10px;
 }
 
-.logn-in:hover, .signUP:hover, .boton-cont:hover{
+.logn-in:hover, .signUP:hover{
     background-color: black;
     color: antiquewhite;
+}
+
+.boton-cont:hover{
+    color:red
 }
 
 .logn-in{
@@ -295,6 +300,11 @@ header .column{
     height: 100%;
 }
 
+.boton-ver{
+    margin-top: 30%;
+    border-radius: 20px;
+    padding: 10px;
+}
 
 .a-img{
     margin-left: 5px;
@@ -333,6 +343,16 @@ footer {
 
 .sub-divR h1{
     margin-bottom: 20px;
+}
+
+.semper a{
+    text-decoration: none;
+    color: #c5c5c5;
+
+}
+
+.color-hoverF:hover{
+    color: red;
 }
 
 .semper h3{
@@ -385,4 +405,15 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1% 10% 6% 10%;
+}
+
+
+.p-atencion{
+    margin: 20px 0px 40px 0px;
+    text-align: justify;
+}
+.Atencion{
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: end;
 }
