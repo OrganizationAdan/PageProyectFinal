@@ -1,20 +1,32 @@
 @media (max-width: 800px) {
-
-    .column h1{
-        font-size: 15px;
+    
+    .enlaces .column h1{
+        font-size: 20px;
     }
 
-    body{
-        background-repeat: repeat-y;
+    .contenedor{
+        position: relative;
+        width: 90%;
     }
-    .contenedor {
-        width: 100%;
+
+    .content-box {
+        position: absolute;
+        width: 170%;
         height: 100%;
         
+        /*top: 50px;
+        left: 15px;*/
     }
 
-    .content-box{
-        
+    .content-box h1{
+        font-size: 40px;
     }
+
+    .content-box p{
+        font-size: 20px;
+        color: white;
+        margin: 10%;
+    }
+    
 
 }
