@@ -300,30 +300,10 @@ header .column{
     height: 100%;
 }
 
-
-.buton-ver{
-   width: 40%;
-    height: 20%;
-    margin: 100px 0px 20px 0px;
-    border-color: #fff;   
-    border-radius: 50px; 
-}
-
-.buton-ver:hover{
-    background-color: black;
-    color: red;
-}
-
-.buton-ver a{
-    font-size: 14px;
-    width: 70%;
-    padding: 23px 30px 23px 30px;
-    text-decoration: none;
-    color:#03032F;
-}
-.buton-ver a:hover{
-    background-color: black;
-    color: red;
+.boton-ver{
+    margin-top: 30%;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .a-img{
