@@ -196,39 +196,136 @@ div .titulo-reportes{
     font-size: 18px;
 }
 
-
-    
-
-
-
-
-
-
-
-
-
-footer{
+footer {
     background-color: #03032F;
-    color: white;
-    font-size: 7px;
-}
-.img-footer{
-    display: flex;
-    width: 100px;
-    height: 100px;
+    color: #c5c5c5;
 }
 
-.principal-footer {
+.divisorR{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 10px 10px 0px 10px;
     justify-content: space-between;
-    padding: 10px;
+    padding: 100px 150px 50px 150px;
 }
 
-.div-footer{
+.sub-divR{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
+
+.sub-divR h1{
+    margin-bottom: 20px;
+}
+
+.semper a{
+    text-decoration: none;
+    color: #c5c5c5;
+
+}
+
+.color-hoverF:hover{
+    color: red;
+}
+
+.semper h3{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0px;
+}
+
+.raya{
+    width: 180%;
+}
+
+.raya2{
+    position: relative;
+    left: 15%;
+    width: 70%;
+}
+
+.enlaces-footer a{
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+}
+
+.enlaces-footer div a img{
+    width: 40px;
+    height: 40px;
+}
+
+.div-enlaces{
+    padding: 10px;
+}
+
+.div-enlaces a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.enlaces-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.div-enlaces a img{
+    margin-right: 10px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    padding: 1% 10% 6% 10%;
+}
+
+
+.p-atencion{
+    margin: 20px 0px 40px 0px;
+    text-align: justify;
+}
+.Atencion{
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: end;
+}
+
+@media (max-width: 1100px) {
+    .p-invisible{
+        display: none;
+    }
+    .divisorR{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5%;
+    }
+    .raya{
+        width: 100%;
+    }
+}
+@media (max-width: 650px) {
+    .divisorR{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 5%;
+        align-items: center;
+    }
+
+    .sub-divR{
+        margin-bottom: 20%;
+    }
+    .raya{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
