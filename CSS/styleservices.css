@@ -160,6 +160,7 @@ button:hover span:nth-child(4){
     height: 410px;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .titulocontenedor{
     padding-top: 10px;
