@@ -1,4 +1,4 @@
-*{
+body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,9 +18,6 @@
     width: 600px;
     height: 500px;
     background-color: rgba(0,0,0,0.5);
-}
-
-.content-box{
     color: white;
     padding: 50px;
 }
