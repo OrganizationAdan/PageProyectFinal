@@ -414,7 +414,10 @@ footer {
     text-align: justify;
 }
 .Atencion{
+    position: relative;
     font-weight: 1000;
     font-size: 20px;
-    text-align: end;
+    text-align: center;
+    left: 25%;
+    font-style: oblique;
 }
