@@ -7,6 +7,9 @@
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
+  background-image: url("../IMG/baño-del-perro.png") !important; 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -228,7 +231,7 @@ h2 {
 
 @media (min-width: 460px) {
   body {
-    background-image: url("/IMG/perro\ chocolate.jpg");
+    background-image: url("../IMG/baño-del-perro.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
