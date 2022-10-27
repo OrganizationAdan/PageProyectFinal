@@ -7,7 +7,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
-    background-image: linear-gradient(to top, #dfe9df 0%, white 100%);
+    background-image: linear-gradient(to top, #ebd3a9 0%, #eae0cf 100%);
     background-size: 100%;
 }
 
@@ -107,7 +107,7 @@ header .column{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #03032F;
+    background-color: #e4973c;
     color:white;
     text-align: center;
     margin: 10px;
@@ -149,13 +149,13 @@ header .column{
 }
 
 .logn-in{
-    background-color: #c4c4e1;
+    background-color: #fbfbfb;
     color: black;
     border-radius: 10px;
 }
 
 .signUP{
-    background-color: #03032F;
+    background-color: #e4902c;
     color: white;
     border-radius: 10px;
 }
@@ -302,7 +302,7 @@ header .column{
 
 .boton-ver{
     margin-top: 30%;
-    border-radius: 20px;
+    border-radius: 17px;
     padding: 10px;
 }
 
@@ -323,8 +323,8 @@ header .column{
 }
 
 footer {
-    background-color: #03032F;
-    color: #c5c5c5;
+    background-color:#e4973c;
+    color: #fbfbfb;
 }
 
 .divisorR{
@@ -347,7 +347,7 @@ footer {
 
 .semper a{
     text-decoration: none;
-    color: #c5c5c5;
+    color: #fbfbfb;
 
 }
 
@@ -373,7 +373,7 @@ footer {
 
 .enlaces-footer a{
     text-decoration: none;
-    color: rgb(94, 92, 92);
+    color: #fbfbfb;
 }
 
 .enlaces-footer div a img{
