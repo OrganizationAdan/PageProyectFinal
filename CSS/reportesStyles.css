@@ -14,91 +14,6 @@ body{
     
     
 }
-
-header{
-    margin-top:1x;
-    margin-left: 1px;
-    margin-right: 1px;
-    background-color: none,
-}
-
-
-
-header .nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-header .espacio{
-    margin-top: 6px;
-}
-
-header .nav-derecha{
-    display: flex;
-    align-items: center;
-}
-
-header .bsc-space{
-    margin-right: 100px;
-    margin-top: 3px;
-}
-
-header .nav-2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-header .nav-2 a {
-    margin-right: 5px;
-}
-
-.buscar{
-    display: flex;
-    padding: 5px;
-}
-
-.buscar input{
-    width: 100px;
-    height: 20px;
-    padding: 0 20 px;
-    font-size: 10px;
-    color:black;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
-}
-
-.buscar:hover{
-    width: 140px;
-}
-
-.buscar input:hover{
-    width: 140px;
-}
-.items{
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    text-decoration: none;
-    color: rgb(0, 66, 33);
-}
-
-.icon {
-    width: 25px;
-    height: 25px;
-    margin: 2px;
-    align-items: center;
-    text-align: center;
-}
-.logo-direccion{
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    background-color:#032f28 ;
-}
 div .titulo-reportes{
     
     height: 70px;
@@ -118,7 +33,7 @@ div .titulo-reportes{
 }
 
 .fondo{
-    background-image: url(../IMG/ReportesIMG/fondoMascota.jpg);
+    background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -134,9 +49,9 @@ div .titulo-reportes{
     width: 80%;
 }
 .form-reporte{
-    width: 400px;
-    background-color: rgba(2, 4, 35, 0.811);
-    color: #edeef8;
+    width: 100%;
+    background-color: rgba(2, 4, 35, 0.1);
+    color: BLACK;
     padding: 45px;
     margin: auto;
     margin-top: 90px;
@@ -178,7 +93,7 @@ div .titulo-reportes{
 
 .form-reporte .caja-de-comentario{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 250px;
+    width: 90%;
     padding: 15px;
     font-size: 17px;
     margin: 7px;
@@ -194,102 +109,6 @@ div .titulo-reportes{
     border: 1px solid #ffffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-}
-
-footer {
-    background-color: #03032F;
-    color: #c5c5c5;
-}
-
-.divisorR{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 100px 150px 50px 150px;
-}
-
-.sub-divR{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.sub-divR h1{
-    margin-bottom: 20px;
-}
-
-.semper a{
-    text-decoration: none;
-    color: #c5c5c5;
-
-}
-
-.color-hoverF:hover{
-    color: red;
-}
-
-.semper h3{
-    display: flex;
-    align-items: flex-start;
-    margin: 20px 0px;
-}
-
-.raya{
-    width: 180%;
-}
-
-.raya2{
-    position: relative;
-    left: 15%;
-    width: 70%;
-}
-
-.enlaces-footer a{
-    text-decoration: none;
-    color: rgb(94, 92, 92);
-}
-
-.enlaces-footer div a img{
-    width: 40px;
-    height: 40px;
-}
-
-.div-enlaces{
-    padding: 10px;
-}
-
-.div-enlaces a{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.enlaces-redes{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.div-enlaces a img{
-    margin-right: 10px;
-}
-
-.copy{
-    display: flex;
-    justify-content: center;
-    padding: 1% 10% 6% 10%;
-}
-
-
-.p-atencion{
-    margin: 20px 0px 40px 0px;
-    text-align: justify;
-}
-.Atencion{
-    font-weight: 1000;
-    font-size: 20px;
-    text-align: end;
 }
 
 @media (max-width: 1100px) {
