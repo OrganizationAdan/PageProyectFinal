@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
-  background-image: url("../IMG/baño-del-perro.png") !important; 
+  background-image: url("../IMG/ReportesIMG/fondoMascota.jpg") !important;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -20,9 +20,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #e4973c;
+  max-width: 50%;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: -2px 10px 17px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 10px 17px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 10px 17px -5px rgba(0, 0, 0, 0.75);
 }
 
 .body-panel p {
+  color: white;
   margin: 5px;
   font-size: 1.5rem;
   font-weight: bold;
@@ -34,8 +42,9 @@ body {
 }
 
 .body-panel a {
+  color: white;
   text-decoration: none;
-  border: 1px solid gray;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 5px;
 }
@@ -61,12 +70,15 @@ body {
 }
 
 .body-crud {
-  background-color: rgb(32, 32, 32);
+  background-color: #e4973c;
   max-width: 95%;
   border: 1px solid gray;
   border-radius: 5px;
   padding: 5px;
   margin: 2vh 0;
+  box-shadow: -2px 10px 17px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 10px 17px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 10px 17px -5px rgba(0, 0, 0, 0.75);
 }
 
 .form-crud input {
@@ -102,6 +114,12 @@ body {
   border-radius: 5px;
 }
 
+.form-crud {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 h2 {
   padding: 10px;
 }
@@ -114,11 +132,9 @@ h2 {
   background-color: rgba(255, 255, 255, 0.486);
 }
 
-@media (min-width: 460px) {
-  body {
-    background-image: url("../IMG/baño-del-perro.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+@media (max-width: 460px) {
+  .body-panel {
+    max-width: 100%;
   }
 
   .form-crud {
