@@ -10,3 +10,70 @@ body{
     font-family: 'PT Sans', sans-serif;
     
 }
+
+
+.div-seccion1{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje{
+    background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
+    background-size: cover;
+    padding: 4%;
+    margin: 0% 0% 4% 0%;
+}
+
+.texto{
+    color: black;
+    font-size: 400%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.div-seccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .pregunta1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.tema{
+    width: 30%;
+    height: 100%;
+    margin: 4% 5% 4% 10%;
+}
+
+.pregunta{
+    font-size: 170%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.p-pregunta{
+    font-size: 110%;
+    text-align: justify;
+}
+
+.p-pregunta, .pregunta{
+    margin-right: 20%;
+}
+
+.bot-det{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    padding: 1.4%;
+    margin: 1% 0%;
+    left: 30%;
+    background-color: #e4973c;
+    border-color: rgb(119, 113, 114);
+    color: black;
+    border-radius: 10%;
+}
