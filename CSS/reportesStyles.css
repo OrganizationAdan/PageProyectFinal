@@ -1,150 +1,97 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
 
 }
 
 body{
-    margin: 0;
-    font-family: 'PT Sans', sans-serif;
-    background-image: none;
-    background-size: cover;
-   
-    
-    
-}
-div .titulo-reportes{
-    
-    height: 70px;
-    color:aliceblue;
-
-    
-}
-
-.espacioR{
- 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-    border-radius: 6px;
-    position: relative;
-}
-
-.fondo{
-    background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-    border-radius: 6px;
-    position: relative;
-    
+    font-family:'PT Sans', sans-serif; ;
+    box-sizing: border-box;
 
 }
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 80%;
+
+.foto-perritos{
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    border-radius: 20%
 }
-.form-reporte{
+
+.containerR{
     width: 100%;
-    background-color: rgba(2, 4, 35, 0.1);
-    color: BLACK;
-    padding: 45px;
-    margin: auto;
-    margin-top: 90px;
-    border-radius: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    box-shadow: 7px 13px 37px #000;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+.card{
+    width: 430px;
+    height: 650px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: rgba(255, 170, 0, 0.279);
+    margin: 20px;
+    transition: all 400ms ease;
 }
 
-.form-reporte h1{
-    font-size: 22px;
-    margin-bottom: 20px;
+.card:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4);
 }
-.form-reporte h3{
-    font-size: 20px;
-    text-align:justify;
-}
-.form-reporte p{
-    height: 70px;
-    text-align:center ;
-    font-size: 17px;
-    line-height: 30px;
-}
-.form-reporte a{
-    color: rgb(21, 224, 255);
-    text-decoration: underline;
-
-}
-.form-reporte .boton{
+.card img{
     width: 100%;
-    background: #00611b;
-    border: #ffffff;
-    padding: 12px;
-    color: aliceblue;
-    margin: 16px 0;
-    font-size: 16px;
-    box-shadow: 7px 13px 37px #000;
-
+    height: 230px;
+}
+.card p{
+    line-height: 1.5;
+    color: rgba(52, 3, 3, 0.748);
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 12px;
+    border: 2px solid snow;
+    border-radius: 7px;
+    transition: all 400ms ease;
 }
 
-.form-reporte .caja-de-comentario{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 90%;
-    padding: 15px;
-    font-size: 17px;
-    margin: 7px;
-
+.card a:hover{
+    background: snow;
+    color:black
 }
-
-.controls{
-    width: 90%;
-    background: #ffffff;
-    padding: 8px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ffffff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+.containerR2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
 }
-
-@media (max-width: 1100px) {
-    .p-invisible{
-        display: none;
-    }
-    .divisorR{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 5%;
-    }
-    .raya{
-        width: 100%;
-    }
+footer{
+    width: 100%;
 }
-@media (max-width: 650px) {
-    .divisorR{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 5%;
+@media (max-width: 900px) {
+    .containerR, .containerR2{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
         align-items: center;
+        margin: 0%;
     }
 
-    .sub-divR{
-        margin-bottom: 20%;
-    }
-    .raya{
-        width: 100%;
+    .card{
+        background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
+        width: 90%;
+        height: auto;
+        padding: 10% 0% 10% 0%;
     }
 }
-
-
-
-
-
-
-
-
-
+@media (max-width: 250px) {
+    .card{
+        background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
+        width: 150%;
+        height: auto;
+        padding: 10% 0% 10% 0%;
+    }
+}
