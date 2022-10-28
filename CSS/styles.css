@@ -76,7 +76,7 @@ header .column{
     border: 1px solid silver;
     border-radius: 30px;
     transition: all 0.6s ease;
-
+    font-size: 80%;
 }
 
 .buscar:hover{
