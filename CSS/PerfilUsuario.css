@@ -34,12 +34,6 @@ body{
     
 }
 
-.logo-direccion{
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    background-color: cadetblue;
-}
 
 .titulo-perfil{
     font-size: 30px;
@@ -58,7 +52,7 @@ body{
 }
 
 .datos-usuario{
-    background-color: cadetblue;
+    background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
     margin-top: 10px;
 }
 
@@ -79,10 +73,11 @@ body{
 }
 
 .perfil-usuario button{
-    background-color: cadetblue;
-    border-color: cadetblue;
+    background-color: #e4973c;
+    border-color: #e4973c;
     margin-top: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
 }
 
 .block{
