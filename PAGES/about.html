@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
     <title>Acerca de</title>
-    <link rel="stylesheet" href="../CSS/aboutStyle.css">
+    <link rel="icon" type="image/x-icon" href="../IMG/indexIMG/head.png" >
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="../CSS/mqIndex.css">
-    <link rel="stylesheet" href="../CSS/aboutStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -22,32 +21,46 @@
             <section class="nav nav-derecha">
                 <div class="buscar bsc-space nav-2">
                     <input id="buscar" type="text" placeholder="Buscar" required>
-                        <a class="items" href="#buscar">
+                        <a class="items lupitas" href="#buscar">
                             <i id="lupa" class="fa-solid fa-magnifying-glass icon"></i>
                         </a>
                 </div>
                 <div class="nav-2">
-                    <a class="items" href="PAGES/LOGIN.html">LOGIN IN</a>
-                    <a class="items" href="PAGES/SignUP.html">SIGN UP</a>
-                    <a href="../PAGES/PerfilUsuario.html">
+                    <a class="items logn-in" href="LOGIN.html">LOGN IN</a>
+                    <a class="items signUP" href="SignUP.html">SIGN UP</a>
+                    <a href="PerfilUsuario.html">
                         <img class="perfil" src="../IMG/indexIMG/usuario.jpg" alt="" width="25px" height="25px">
                     </a>
                 </div>
+                
             </section>
         </section>
+        
         <div class="logo-direccion">
             <a href="../index.html">
                 <img class="logo" src="../IMG/indexIMG/logo.png" alt="" width="125px">
             </a>
             <div class="enlaces">
-                <a class="column" href="../PAGES/about.html">
-                    <h1>Acerca de Nosotros</h1>
                 <a class="column" href="../index.html">
                     <i class="fa-solid fa-house-chimney home"></i>
                 </a>
+                
+                <div class="items">
+                    <nav>
+                            <a class="column enlaces2" href="about.html">
+                                ACERCA DE 
+                            </a>
+                            <a class="column enlaces2" href="reporte.html">
+                                REPORTES
+                            </a>
+                            <a class="column enlaces2" href="services.html">
+                                NUESTROS SERVICIOS
+                            </a>
+                        </nav>
+                </div>       
             </div>
         </div>
-    </header>
+        </header>
     <section id="container" class="espacio-imgP container">       
         <img class="imagen-principal container" src="../IMG/IMGAbout/perrito.jpg" alt="">
         <div  class="acercade filter">
@@ -56,5 +69,75 @@
             </p>
         </div>
     </section>
+
+    <footer>
+        <div class="divisorR">
+            <div class="sub-divR lorem">
+                <a href="../index.html">
+                    <img src="../IMG/indexIMG/logo.png" alt="" width="100px" height="100px">
+                </a>
+                <p class="p-atencion">
+                    <span class="Atencion">
+                        La mejor atención <br>
+                    </span>
+                    Hospital Veterinario con más de 35 años de experiencia. Consultas, Cirugía, Peluquería, Accesorios, Concentrados, servicio de datafono y todo lo que necesites para tus peluditos acá lo encontrarás.</p>
+            </div>
+    
+            <div class="sub-divR">
+                <h1>Otras</h1>
+                <div class="semper">
+                    <a class="color-hoverF" href="NuestroEquipo.html">
+                        <h3>Nuestro Equipo</h3>
+                    </a>
+                    <hr class="raya">
+                    <a class="color-hoverF" href="Aprendizaje.html">
+                        <h3>Aprendizaje del tema</h3>
+                    </a>
+                    <hr class="raya">
+                    <a class="color-hoverF" href="">
+                        <h3>Jugabilidad del sistema</h3>
+                    </a>
+                    <hr class="raya">
+                    <a class="color-hoverF" href="AdminCRUD.html">
+                        <h3>Admin CRUD</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="sub-divR enlaces-footer">
+                <h1>Redes Sociales</h1>
+                <div class="enlaces-redes">
+                    <div class="div-enlaces">
+                        <a class="color-hoverF" href="https://www.instagram.com/dogvetc/">
+                            <img src="../IMG/indexIMG/instagram.png" alt="">
+                            <h3>Instagram</h3>
+                        </a>
+                    </div>
+                    <div class="div-enlaces">
+                        <a class="color-hoverF" href="https://www.facebook.com/profile.php?id=100087141340407">
+                            <img src="../IMG/indexIMG/facebook.png" alt="">
+                            <h3>Facebook</h3>
+                        </a>
+                    </div>
+                    <div class="div-enlaces">
+                        <a class="color-hoverF" href="https://twitter.com/dogvet_c">
+                            <img src="../IMG/indexIMG/Twitter-logo.png" alt="">
+                            <h3>Twitter</h3>
+                        </a>
+                    </div>
+                    <div class="div-enlaces">
+                        <a class="color-hoverF" href="https://wa.me/qr/STVLGNU2Q6WEH1">
+                            <img src="../IMG/indexIMG/WhatsApp.png" alt="">
+                            <h3>Whatsapp</h3>
+                        </a>
+                    </div>
+                </div>
+                </div>
+    
+        </div>
+        <hr class="raya2">
+        <div class="copy">
+            &copy; VETERINARY CLINIC
+        </div>
+    </footer>
 </body>
 </html>

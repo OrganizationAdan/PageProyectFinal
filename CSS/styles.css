@@ -76,7 +76,7 @@ header .column{
     border: 1px solid silver;
     border-radius: 30px;
     transition: all 0.6s ease;
-
+    font-size: 80%;
 }
 
 .buscar:hover{
@@ -325,6 +325,7 @@ header .column{
 footer {
     background-color:#e4973c;
     color: #fbfbfb;
+    margin-top: 20px;
 }
 
 .divisorR{
@@ -413,7 +414,10 @@ footer {
     text-align: justify;
 }
 .Atencion{
+    position: relative;
     font-weight: 1000;
     font-size: 20px;
-    text-align: end;
+    text-align: center;
+    left: 25%;
+    font-style: oblique;
 }

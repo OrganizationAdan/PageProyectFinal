@@ -6,7 +6,13 @@
     .sub-imagenscroll{
         display: none;
     }
-    
+
+    .lupitas{
+        display: none;
+    }
+    .rayas{
+        display: none;
+    }
 }
 
 @media (max-width: 600px ) {
@@ -48,8 +54,7 @@
 
 @media (min-width: 280px ) {
     .nav-2 a{
-        font-size: 9px;
-        padding: 0px 10px 0px 10px;
+        font-size: 7px;
     }
     .imagen-principal{
         background-repeat: no-repeat;
@@ -65,11 +70,21 @@
         margin: 20px;
     }
 
+    .items{
+        padding: 5px 15px 5px 15px;
+        margin: 0;
+        margin-right: 0%;
+    }
     .home{
         font-size: 15px;
     }
     .enlaces a{
         margin: 2px;
+        font-size: 10px;
+    }
+
+    nav .enlaces2{
+        width: auto;
         font-size: 10px;
     }
 
@@ -158,6 +173,10 @@
         }
         .acercade p{
             padding-bottom: 10px;
+        }
+        nav .enlaces2{
+            width: auto;
+            font-size: 9px;
         }
 }
 
@@ -348,9 +367,19 @@
         margin-right: 20px;
         font-size: 16px;
     }
+
+
+    #buscar{
+        width: 200%;
+    }
+    .buscar{
+        position: relative;
+        left: 0%;
+    }
     .buscar input{
         height: 35px ;
         padding: 20px;
+        font-size: 120%;
     }
     .itemsNav i{
         font-size: 40px;

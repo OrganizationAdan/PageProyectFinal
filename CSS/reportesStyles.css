@@ -1,142 +1,83 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
 
 }
 
 body{
-    margin: 0;
-    font-family: 'PT Sans', sans-serif;
-    background-image: none;
-    background-size: cover;
-   
-    
-    
+    font-family:'PT Sans', sans-serif; ;
+    box-sizing: border-box;
+
 }
 
-header{
-    margin-top:1x;
-    margin-left: 1px;
-    margin-right: 1px;
-    background-color: none,
+.foto-perritos{
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    border-radius: 20%
 }
 
-
-
-header .nav{
+.containerR{
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    border-radius: 6px;
+}
+.card{
+    width: 430px;
+    height: 650px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: rgba(255, 170, 0, 0.279);
+    margin: 20px;
+    transition: all 400ms ease;
 }
 
-header .espacio{
-    margin-top: 6px;
+.card:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4);
 }
-
-header .nav-derecha{
-    display: flex;
-    align-items: center;
+.card img{
+    width: 100%;
+    height: 230px;
 }
-
-header .bsc-space{
-    margin-right: 100px;
-    margin-top: 3px;
+.card p{
+    line-height: 1.5;
+    color: rgba(52, 3, 3, 0.748);
 }
-
-header .nav-2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-header .nav-2 a {
-    margin-right: 5px;
-}
-
-.buscar{
-    display: flex;
-    padding: 5px;
-}
-
-.buscar input{
-    width: 100px;
-    height: 20px;
-    padding: 0 20 px;
-    font-size: 10px;
-    color:black;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
-}
-
-.buscar:hover{
-    width: 140px;
-}
-
-.buscar input:hover{
-    width: 140px;
-}
-.items{
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
+.card a{
     text-decoration: none;
-    color: rgb(0, 66, 33);
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 12px;
+    border: 2px solid snow;
+    border-radius: 7px;
+    transition: all 400ms ease;
 }
 
-.icon {
-    width: 25px;
-    height: 25px;
-    margin: 2px;
-    align-items: center;
-    text-align: center;
+.card a:hover{
+    background: snow;
+    color:black
 }
-.logo-direccion{
+.containerR2{
+    width: 100%;
     display: flex;
-    justify-content:left;
-    align-items: center;
-    background-color:#032f28 ;
-}
-div .titulo-reportes{
-    
-    height: 70px;
-    color:aliceblue;
-
-    
-}
-
-.espacioR{
- 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
+    justify-content: center;
     border-radius: 6px;
-    position: relative;
 }
 
-.fondo{
-    background-image: url(../IMG/ReportesIMG/fondoMascota.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-    border-radius: 6px;
-    position: relative;
-    
-
-}
 .container {
     margin: 0 auto;
     max-width: 1280px;
     width: 80%;
 }
 .form-reporte{
-    width: 400px;
-    background-color: rgba(2, 4, 35, 0.811);
-    color: #edeef8;
+    width: 100%;
+    background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
+    color: BLACK;
     padding: 45px;
     margin: auto;
     margin-top: 90px;
@@ -160,7 +101,7 @@ div .titulo-reportes{
     line-height: 30px;
 }
 .form-reporte a{
-    color: rgb(21, 224, 255);
+    color: rgb(33, 21, 255);
     text-decoration: underline;
 
 }
@@ -178,7 +119,7 @@ div .titulo-reportes{
 
 .form-reporte .caja-de-comentario{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 250px;
+    width: 90%;
     padding: 15px;
     font-size: 17px;
     margin: 7px;
@@ -195,137 +136,30 @@ div .titulo-reportes{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
-
-footer {
-    background-color: #03032F;
-    color: #c5c5c5;
-}
-
-.divisorR{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 100px 150px 50px 150px;
-}
-
-.sub-divR{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+footer{
     width: 100%;
 }
-
-.sub-divR h1{
-    margin-bottom: 20px;
-}
-
-.semper a{
-    text-decoration: none;
-    color: #c5c5c5;
-
-}
-
-.color-hoverF:hover{
-    color: red;
-}
-
-.semper h3{
-    display: flex;
-    align-items: flex-start;
-    margin: 20px 0px;
-}
-
-.raya{
-    width: 180%;
-}
-
-.raya2{
-    position: relative;
-    left: 15%;
-    width: 70%;
-}
-
-.enlaces-footer a{
-    text-decoration: none;
-    color: rgb(94, 92, 92);
-}
-
-.enlaces-footer div a img{
-    width: 40px;
-    height: 40px;
-}
-
-.div-enlaces{
-    padding: 10px;
-}
-
-.div-enlaces a{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.enlaces-redes{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.div-enlaces a img{
-    margin-right: 10px;
-}
-
-.copy{
-    display: flex;
-    justify-content: center;
-    padding: 1% 10% 6% 10%;
-}
-
-
-.p-atencion{
-    margin: 20px 0px 40px 0px;
-    text-align: justify;
-}
-.Atencion{
-    font-weight: 1000;
-    font-size: 20px;
-    text-align: end;
-}
-
-@media (max-width: 1100px) {
-    .p-invisible{
-        display: none;
-    }
-    .divisorR{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 5%;
-    }
-    .raya{
-        width: 100%;
-    }
-}
-@media (max-width: 650px) {
-    .divisorR{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 5%;
+@media (max-width: 900px) {
+    .containerR, .containerR2{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
         align-items: center;
+        margin: 0%;
     }
 
-    .sub-divR{
-        margin-bottom: 20%;
-    }
-    .raya{
-        width: 100%;
+    .card{
+        background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
+        width: 90%;
+        height: auto;
+        padding: 10% 0% 10% 0%;
     }
 }
-
-
-
-
-
-
-
-
-
+@media (max-width: 250px) {
+    .card{
+        background-image: url(../IMG/AprendizajeIMG/fondo_bienvenida.jpg);
+        width: 150%;
+        height: auto;
+        padding: 10% 0% 10% 0%;
+    }
+}
