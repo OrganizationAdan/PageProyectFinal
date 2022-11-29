@@ -13,7 +13,7 @@ body{
     position: relative;
 }
 
-video{
+#imgbanner{
     position: absolute;
     top: 0%;
     left: 0%;
@@ -37,7 +37,7 @@ header{
     width: 100%;
     height: 70px;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.286);
+    background-color: #e4973c;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
