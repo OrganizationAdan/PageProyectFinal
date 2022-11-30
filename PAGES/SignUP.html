@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registrarse</title>
-    <link rel="icon" type="image/x-icon" href="../IMG/indexIMG/head.png" >
+    <link rel="icon" type="image/x-icon" href="../IMG/indexIMG/head.png" />
     <link rel="stylesheet" href="../CSS/styleSingUp.css" />
   </head>
   <body>
@@ -15,15 +15,26 @@
           <a href="../index.html">
             <img src="../IMG/indexIMG/logo.png" alt="" />
           </a>
-          <form action="" class="registrarse">
+          <form action=" " class="registrarse" method="POST">
             <div class="inp">
               <label for="nom">Nombre</label>
-              <input type="text" placeholder="Nombre" id="nom" required />
+              <input
+                type="text"
+                placeholder="Nombre"
+                id="nom"
+                required
+                name="usuario"
+              />
             </div>
 
             <div class="inp">
               <label for="corr">Correo</label>
-              <input type="email" placeholder="Correo electronico" id="corr" />
+              <input
+                type="email"
+                placeholder="Correo electronico"
+                id="corr"
+                name="correo"
+              />
             </div>
 
             <div class="inp">
@@ -34,11 +45,12 @@
                 placeholder="Contraseña"
                 required
                 minlength="6"
+                name="contrasenia"
               />
             </div>
 
             <div class="check">
-              <input type="checkbox" id="ck" placeholder="" required />
+              <input type="checkbox" id="ck" placeholder="" />
               <label for="ck"
                 >Acepto los <a href="#">Terminos y condiciones</a></label
               >
@@ -64,5 +76,6 @@
         </p>
       </section>
     </section>
+    <script src="../Scripts/singup.js"></script>
   </body>
 </html>
